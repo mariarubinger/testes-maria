@@ -22,7 +22,7 @@ Clique para trocar Belo Horizonte por BH
     function trocarPalavra() {
         var text1 = document.getElementById("text").innerHTML;
         console.log(text1);
-        document.getElementById("text").innerHTML = text1.replace(/belo horizonte/gi, "BH");
+        document.getElementById("text").innerHTML = text1.replace(/belo horizonte/gi, '<span style="background-color: #d5f4e6">BH</span>');
     }
 
 </script>

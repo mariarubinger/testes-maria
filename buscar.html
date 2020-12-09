@@ -16,19 +16,21 @@ O índice de ocupação de leitos de UTI dos casos de Covid-19 também aumentou 
 <br>
 
 Digite uma palavra para buscar no texto:
-<input id="textinput" >
+<input id="textinput" value="" >
 <button onclick="buscarPalavra()">BUSCAR</button><br><br>
 
 
 <script>
+
+
+    String.prototype.stripHTML = function () {return this.replace(/<.*?>/g, '');}
     
     function buscarPalavra(){
         var palavraDigitada = document.getElementById("textinput").value;
-        console.log(palavraDigitada);
-
         var text1 = document.getElementById("text").innerHTML;
-
-        document.getElementById("text").innerHTML = text1.replace(/'palavraDigitada'/gi, '<span style="background-color: #d5f4e6">'palavraDigitada'</span>');
+        var texto_limpo = text1.stripHTML();
+        var regexMoreWord = new RegExp(palavraDigitada, "gi");
+        document.getElementById("text").innerHTML = texto_limpo.replace(regexMoreWord, '<span style="background-color: #d5f4e6">'+palavraDigitada+'</span>');
     }
 
 
