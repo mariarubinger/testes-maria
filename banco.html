@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MBank</title>
+
+   
+
+
+</head>
+<body>
+
+<div id="clientes">
+    <h2>Cliente do Banco</h2>
+    <input value="02347398199" type="radio" name="clientes" checked> Marcus<br>
+    <input value="99999999999" type="radio" name="clientes"> Maria
+</div>
+
+<div id="clientes">
+    <h2>Operações</h2>
+    <input value="saque" type="radio" name="operacao"> Saque<br>
+    <input value="deposito" type="radio" name="operacao" checked> Depósito<br>
+    <br><br>
+    Valor: <input value="1000" type="text" name="valor" id="valor"> 
+    <input type="button" value="executar operação" onclick="executarOperacao()">
+</div>
+
+
+<div id="clientes">
+    <h2>Saldos</h2>
+    <div id="extrato_geral">
+    
+</div>
+<br>
+
+<script>
+    var contas = [
+                ['02347398199', 'Marcus Rocha', 15000222],
+                ['99999999999', 'Maria Rubinger', 32000]
+    ]
+
+    function saque(cliente, valor){
+
+        for(var i =0;i < contas.length; i++ ){
+            if(contas[i][0] == cliente){
+
+                console.log(valor)
+                contas[i][2] -= valor;
+            }
+        }
+        
+    }
+
+    function deposito(cliente, valor){
+        for(var i =0;i < contas.length; i++ ){
+            if(contas[i][0] == cliente){
+
+                console.log(valor)
+                contas[i][2] += parseInt(valor);
+            }
+        }
+    }
+
+    function atualizarExtrato(){
+        var htmlContas = '';
+        for(var i =0;i < contas.length;i++){
+            
+            htmlContas += contas[i][1] + ' : '+ contas[i][2] + '<br>';
+        }
+        document.getElementById('extrato_geral').innerHTML = htmlContas;    
+    }
+
+    function executarOperacao() {
+        var cliente = document.querySelector('[name=clientes]:checked').value;
+        var operacao = document.querySelector('[name=operacao]:checked').value;
+        var valor = document.querySelector('#valor').value;
+        
+        if(operacao == 'saque'){
+            saque(cliente, valor);
+            atualizarExtrato();
+        }else{
+            deposito(cliente, valor);
+            atualizarExtrato();
+        }       
+        
+    }
+
+
+
+    atualizarExtrato();
+
+</script>
+
+
+</body>
+</html>
