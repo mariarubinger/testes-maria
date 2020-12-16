@@ -1,0 +1,27 @@
+.header-promo{
+    background-color: #df916d;    
+    
+    background: #df916d;
+    color: white;
+    font-size: 11px;
+}
+
+.header-promo a {
+    color: #fff;
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.header-promo a:hover {
+    color: #fff;
+    text-decoration: none; 
+}
+
+.header-menu{
+    top: 32px !important;
+    width: 100%;
+    padding: 14px;
+    background: #ffa67d;
+    color: white;
+    font-size: 14px;
+}
