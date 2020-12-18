@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="40"
+   height="40"
+   viewBox="0 0 40 40"
+   fill="none"
+   version="1.1"
+   id="svg19"
+   sodipodi:docname="icon_troca.svg"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)">
+  <metadata
+     id="metadata23">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+      </cc:Work>
+    </rdf:RDF>
+  </metadata>
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="1920"
+     inkscape:window-height="986"
+     id="namedview21"
+     showgrid="false"
+     inkscape:zoom="5.9"
+     inkscape:cx="20"
+     inkscape:cy="20"
+     inkscape:window-x="-11"
+     inkscape:window-y="-11"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg19" />
+  <g
+     clip-path="url(#clip0)"
+     id="g12">
+    <path
+       d="M24.8594 9.30469L28.7483 13.1936L24.8594 17.0825"
+       stroke="black"
+       stroke-width="1.5"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="path4" />
+    <path
+       d="M11.25 19.0247V17.0803C11.25 16.0489 11.6597 15.0597 12.389 14.3304C13.1183 13.6011 14.1075 13.1914 15.1389 13.1914H28.75"
+       stroke="black"
+       stroke-width="1.5"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="path6" />
+    <path
+       d="M15.1389 30.6918L11.25 26.803L15.1389 22.9141"
+       stroke="black"
+       stroke-width="1.5"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="path8" />
+    <path
+       d="M28.75 20.9727V22.9171C28.75 23.9485 28.3403 24.9377 27.611 25.667C26.8817 26.3963 25.8925 26.806 24.8611 26.806H11.25"
+       stroke="black"
+       stroke-width="1.5"
+       stroke-linecap="round"
+       stroke-linejoin="round"
+       id="path10" />
+  </g>
+  <defs
+     id="defs17">
+    <clipPath
+       id="clip0">
+      <rect
+         x="8.33203"
+         y="8.33203"
+         width="23.3333"
+         height="23.3333"
+         fill="white"
+         id="rect14" />
+    </clipPath>
+  </defs>
+</svg>
