@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora da Maria</title>
+    <link rel="stylesheet" href="./calculadora.css" />
+    <script language="javascript" src="script.js"></script>
+</head>
+<body>
+    <div>
+        <h1>Calculadora da Maria</h1>
+    </div>
+        <div id="calculator">
+            <input type="text" id="screen" class="screen" onclick="total()"/>
+        
+            <section class="grid">  
+
+                <div class="key">
+                    <li value="7" onclick="calc(value)">7</li>
+                </div>
+                <div class="key">
+                    <li value="8" onclick="calc(value)">8</li>
+                </div>
+                <div class="key">
+                    <li value="9" onclick="calc(value)">9</li>
+                </div>
+                <div class="operator">
+                    <li value="/" onclick="calc('/')">/</li>
+                </div>
+                <div class="key">
+                    <li value="4" onclick="calc(value)">4</li>
+                </div>
+                <div class="key">
+                    <li value="5" onclick="calc(value)">5</li>
+                </div>
+                <div class="key">
+                    <li value="6" onclick="calc(value)">6</li>
+                </div>
+                <div class="operator">
+                    <li value="*" onclick="calc('*')">*</li>
+                </div>
+                <div class="key">
+                    <li value="1" onclick="calc(value)">1</li>
+                </div>
+                <div class="key">
+                    <li value="2" onclick="calc(value)">2</li>
+                </div>
+                <div class="key">
+                    <li value="3" onclick="calc(value)">3</li>
+                </div>
+                <div class="operator">
+                    <li value="-" onclick="calc('-')">-</li>
+                </div>
+                <div class="key">
+                    <li value="0" onclick="calc(value)">0</li>
+                </div>
+                <div class="key">
+                    <li value="." onclick="calc('.')">.</li>
+                </div>
+                 <div class="operator">
+                    <li value="C" onclick="reset()">C</li>
+                </div>
+                <div class="operator">
+                    <li value="+" onclick="calc('+')">+</li>
+                </div>
+                <div class="operator">
+                    <li onclick="total()">=</li>
+                </div> 
+            </section>
+        </div>
+</body>
+</html>
