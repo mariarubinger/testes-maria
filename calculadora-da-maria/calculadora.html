@@ -12,8 +12,8 @@
         <h1>Calculadora da Maria</h1>
     </div>
         <div id="calculator">
-            <input type="text" id="screen" class="screen" onclick="total()"/>
-        
+            <input type="text" id="screen" class="screen"  onkeypress="return runScript(event)" onclick="total()"/>
+            <!-- TODO: Remove function here-->
             <section class="grid">  
 
                 <div class="key">
@@ -38,7 +38,7 @@
                     <li value="6" onclick="calc(value)">6</li>
                 </div>
                 <div class="key">
-                    <li value="*" onclick="calc('*')">*</li>
+                    <li value="*" onclick="calc('*')">x</li>
                 </div>
                 <div class="key">
                     <li value="1" onclick="calc(value)">1</li>
