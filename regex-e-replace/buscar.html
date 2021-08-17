@@ -23,7 +23,9 @@ Digite uma palavra para buscar no texto:
 <script>
 
 
-    String.prototype.stripHTML = function () {return this.replace(/<.*?>/g, '');}
+    String.prototype.stripHTML = function () {
+        return this.replace(/<.*?>/g, '');
+    }
     
     function buscarPalavra(){
         var palavraDigitada = document.getElementById("textinput").value;

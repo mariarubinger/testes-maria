@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Operadores</title>
+</head>
+<body>
+    <script>
+        var name = 'Maria' //o = é o operador
+        
+        //aritmetics operadores aritméticos
+        var totalSum = 5 + 5
+        var totalSub = 10 - 5
+        var totalMult = 2 * 2
+        var totalDiv = 4 / 2
+
+        totalSum += 5 
+
+        console.log(totalSum, totalSub, totalMult, totalDiv)
+
+        /*
+        ++ //increment vai adicionar +1 em uma variável 
+        -- //decrement vai subtrair -1 em uma variável 
+        % //retorna o inteiro restante da divisão de dois operadores
+        */
+
+        //operadores de comparação - true or false
+        var a = 50
+        var b = 600
+
+        //comparação de igualdade
+            // var c = a == b //== 2 iguais verifica o valor 
+            // var c = a === b //=== 3 iguais verifica o valor e o tipo
+        
+        //comparação de não igualdade
+            // var c = a != b
+            // var c = a !== b
+
+            // var c = a < b //menor que
+            // var c = a > b //maior que
+            // var c = a <= b //menor que ou igual
+            // var c = a >= b //maior que ou igual
+
+        var c = a >= b
+        console.log(c)
+
+        //logical - conexões lógicas
+        //&& and - T && T = T // F && T = F 
+        //|| or - T || T = T // F || T = T
+        //! not - ele nega 
+        
+        var l = (a > totalSum) || (b < totalSum)  //se uma estiver verdadeira já aparece true
+        console.log(l)
+        
+        var l = !(50 > 10) || (600 < 10)  //se uma estiver verdadeira já aparece true
+        console.log((50 > 10), !(50 > 10), (600 < 10), l)
+                   //false, true, false, false
+
+        //OLHAR TABELA VERDADE
+
+    </script>
+</body>
+</html>

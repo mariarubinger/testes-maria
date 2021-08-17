@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estrutura de repetições WHILE e DO WHILE</title>
+</head>
+<body>
+    <script>
+        //while = enquanto
+        //estrutura de repetição até que ela se torne falsa
+        
+        var i = 0
+        var str = ''
+
+        /*
+        while (i < 5) {
+            console.log('Inside Loop')
+            i++
+        }
+
+        console.log('Script running')
+        */
+
+        /*
+        while (i < 5) {
+            if (i <= 3) {
+                console.log('Is less than 5')
+            } else {
+                str += i
+            }
+            i++
+        }
+
+        console.log(str)
+        console.log('Script running')
+        */
+
+        //não é muito comum o uso do DO WHILE
+        //vai executar primeiro uma vez o código para depois validar se é true or false
+        do {
+            if (i <= 3) {
+                console.log('Is less than 5')
+            } else {
+                str += i
+            }
+            i++
+        } while(i <= 5)
+        
+        console.log(str)
+        console.log('Script running')
+
+    </script>
+</body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tipos de funções e introdução a escopo</title>
+</head>
+<body>
+    <script>
+        //procedimento
+        function sayHello() {
+        console.log('Hello from Function - School of Net')
+        }
+        var a = sayHello()
+        console.log(a)
+
+        /*
+        //função padrão
+        var number = 4
+        function square() {
+            return number * number
+        }
+        var b = square()
+        var c = square()
+        console.log(b, c)
+        */
+
+        //função parametrizada
+        //entre os () coloca os PARÂMETROS
+        //o parâmetro vai captar o tipo colocado no parâmetro
+        /*
+        function square(num) {
+            return num * num
+        }
+
+        var d = square(5)
+        console.log(d)
+        */
+
+        //ESCOPO 
+        //níveis de escopo, cada nível de escopo vai ter um acesso distinto 
+        //espoco globral=escopo fora de uma função
+        //escopo individual=escopo dentro de uma função
+
+        var num = 5 //escopo global
+        var num = 10 // colocando assim o 10 subscreve o 5
+
+        function square(num) { //escopo individual
+            var num = 4
+            return num * num
+        }
+
+        var d = square(num)
+        console.log(d)
+        
+    </script>
+</body>
+</html>

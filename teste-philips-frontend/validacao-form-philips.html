@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+    <head>
+    	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"></script>
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js"></script>
+		<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css">
+        <link rel="stylesheet" href="./styles.css">
+    </head>
+    <body>
+		<div class="container">
+            <form class="card">
+                <div class="card-header">
+                    Get started today!
+                </div>
+                <div class="form-group row" style="padding-top: 10px;">
+                    <div class="col">
+                        <label for="validationServer01" >First name</label>
+                        <input type="text" class="form-control"  pattern="[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$">
+                    </div>
+                    <div class="col">
+                        <label>Last name</label>
+                        <input type="text" class="form-control" pattern="[A-Za-záàâãéèêíïóôõöúçñÁÀÂÃÉÈÍÏÓÔÕÖÚÇÑ ]+$">
+                    </div>
+                </div>
+                <div class="form-group row">
+                    <div class="col">
+                        <label>E-mail</label>
+                        <input type="email" class="form-control">
+                    </div>
+                    <div class="col">
+                        <label>Password</label>
+                        <input type="password" required="required" name="numbers" pattern="[0-9]+$" class="form-control">
+                    </div>
+                </div>
+                <button type="submit" class="btn btn-primary" style="background-color: #5fcf80; border: none;">Claim Your Free Trial</button>
+                <div class="text-clickable"><span>You are agreeing to our</span><a href="#"> Terms and Services</a></div>
+            </form>
+        </div>
+    </body>
+</html>

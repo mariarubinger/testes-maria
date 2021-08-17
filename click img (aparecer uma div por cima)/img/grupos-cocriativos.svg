@@ -1,0 +1,7 @@
+<svg width="32" height="32" viewBox="0 0 32 32" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="16" cy="16" r="12.1731" stroke="#FF6D65" stroke-width="1.5"/>
+<circle cx="16" cy="4.15385" r="2.90385" fill="white" stroke="#FF6D65" stroke-width="1.5"/>
+<circle cx="16" cy="27.8462" r="2.90385" fill="white" stroke="#FF6D65" stroke-width="1.5"/>
+<circle cx="27.8462" cy="16" r="2.90385" transform="rotate(90 27.8462 16)" fill="white" stroke="#FF6D65" stroke-width="1.5"/>
+<circle cx="4.15377" cy="16" r="2.90385" transform="rotate(90 4.15377 16)" fill="white" stroke="#FF6D65" stroke-width="1.5"/>
+</svg>

@@ -1,0 +1,28 @@
+.container{
+    justify-content: center;
+    justify-items: center;
+    align-items: center;
+    align-content: center;
+    padding: 150px;
+
+}
+.card {
+    padding: 20px;
+}
+
+.card-header {
+    text-align: center;
+    background-color: #637a91;
+    color: white;
+    font-weight: 600;
+
+}
+
+.col {
+    font-weight: 600;
+}
+
+.text-clickable {
+    font-size: 14px;
+    padding-top: 5px;
+}

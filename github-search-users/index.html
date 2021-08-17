@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GitHub Search User using GitHub API</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container">
+        <h2 style="text-align: center">
+            Lista de Repositório de um Usário do GitHub
+        </h2>
+        <form id="myForm">
+            <div class="form-group">
+                <input type="text" class="form-control" id="search" placeholder="Digite o username" > 
+            </div>
+            <div class="form-group">
+                <button class="btn btn-danger btn-block">
+                    Buscar
+                </button>
+            </div>
+            </div>
+        </form>
+    </div>
+
+    <div class="container">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Nome:</th>
+              <th>Descrição:</th>
+              <th>Link do Repositório:</th>
+            </tr>
+          </thead>
+          <tbody id="result"></tbody>
+        </table>
+      </div>
+</body>
+
+<script src="main.js"></script>
+</html>
